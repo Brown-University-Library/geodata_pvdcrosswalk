@@ -4,7 +4,7 @@
 
 The Providence Census Geography Crosswalk is a set of spreadsheet tables and a series of maps that relate census geographies with local geographies in Providence, Rhode Island. Census tracts and ZIP Code Tabulation Areas (ZCTAs) for 2020 were related to Providence neighborhood boundaries and wards; the City's official neighborhood boundaries were regenerated using 2020 census blocks for this analysis. There is one crosswalk table for each pair, and each record represents an instance where a census geography and local geography overlap. The tables can be used for apportioning and aggregating census data from tracts and ZCTAs to neighborhoods and wards. The ZCTA information is included primarily for illustrative purposes; given the poor relationship between ZCTAs and other geographies its use is not recommended. A list of census blocks that constitute all of the geographies is also included, and can be used for aggregating block-level census data.
 
-Columns in the crosswalk include values and percent totals for population, housing units, land area, and total area of the census geography that falls within the local geography. Population and housing counts are from the 2020 census, while area is from the 2023 Census TIGER Line files and is represented in square miles.
+Columns in the crosswalk include values and percent totals for population, housing units, land area, and total area for the portion of the census geography that falls within the local geography. Population and housing counts are from the 2020 census, while area is from the 2023 Census TIGER Line files and is represented in square miles.
 
 Project Leads: 
 
