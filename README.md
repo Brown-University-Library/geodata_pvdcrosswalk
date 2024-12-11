@@ -20,7 +20,7 @@ A future release in spring 2025 will include block groups and a step by step tut
 
 ## Rights and Use
 
-This product was produced as part of Brown University's Community-Engaged Data and Evaluation Collaborative (CEDEC), an initiative of the Swearer Center for Public Service that brings partners from the University and Rhode Island communities together to advance data-oriented projects. The Crosswalk was created by the GeoData@SciLi team, which is part of the Center for Library Exploration and Research (CLEAR) at the Brown University Library. The crosswalk and maps are published under a Creative Commons Attribution Noncommercial Sharealike license CC BY-NC-SA 4.0 ![](S:\_geodata\projects\providence_census_nbhoods\pvd_census_crosswalk\images\cc_license.png).
+This product was produced as part of Brown University's [Community-Engaged Data and Evaluation Collaborative]([Data and Evaluation Partnerships | Swearer Center for Public Service | Brown University](https://swearer.brown.edu/faculty-staff/data-and-evaluation-partnerships)) (CEDEC), an initiative of the Swearer Center for Public Service that brings partners from the University and Rhode Island communities together to advance data-oriented projects. The Crosswalk was created by the [GeoData@SciLi]([Home - GeoData@SciLi - LibGuides at Brown University](https://libguides.brown.edu/geodata)) team, which is part of the Center for Library Exploration and Research (CLEAR) at the Brown University Library. The crosswalk and maps are published under a Creative Commons Attribution Noncommercial Sharealike license CC BY-NC-SA 4.0 ![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/cc_license.png).
 
 *Disclaimer: Every effort was made to ensure that the data, which was compiled from public sources, was processed and presented accurately. The creators and Brown University disclaim any liability for errors, inaccuracies, or omissions that may be contained therein or for any damages that may arise from the foregoing. Users should independently verify the accuracy and fitness of the data for their purposes.*
 
@@ -28,28 +28,28 @@ This product was produced as part of Brown University's Community-Engaged Data a
 
 ### Crosswalk
 
-- [Providence Census Geography Crosswalk and Documentation (ZIP)](crosswalk.zip)
+- [Providence Census Geography Crosswalk and Documentation (ZIP)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/crosswalk.zip)
 
-- [Providence Census Geography Crosswalk (XLSX)](crosswalk/pvd_census_geog_crosswalk.xlsx)
+- [Providence Census Geography Crosswalk (XLSX)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/crosswalk/pvd_census_geog_crosswalk.xlsx)
 
-- [Crosswalk Documentation (PDF)](pvd_census_geog_crosswalk.pdf)
+- [Crosswalk Documentation (PDF)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/crosswalk/pvd_census_geog_crosswalk.pdf)
 
 - [Source Materials (folder)](source_materials)
 
 ### Maps (PDF)
 
-- [All Maps (ZIP)](maps.zip)
+- [All Maps (ZIP)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps.zip)
 
-- [2020 Census Tracts to 2020 Neighborhoods](maps/pvd_tracts2020_nbhoods2020.pdf)
+- [2020 Census Tracts to 2020 Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_tracts2020_nbhoods2020.pdf)
 
-- [2020 Census Tracts to 2022 Wards](maps/pvd_tracts2020_wards2022.pdf)
+- [2020 Census Tracts to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_tracts2020_wards2022.pdf)
 
-- [2020 ZCTAs to 2020 Neighborhoods](maps/pvd_zctas2020_nbhoods2020.pdf)
+- [2020 ZCTAs to 2020 Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_nbhoods2020.pdf)
 
-- [2020 ZCTAs to 2022 Wards](maps/pvd_zctas2020_wards2022.pd)
+- [2020 ZCTAs to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_wards2022.pd)
 
-- [2020 Neighborhoods vs Official Neighborhoods](maps/pvd_nbhoods_nbhoods2020.pd)
+- [2020 Neighborhoods vs Official Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_nbhoods_nbhoods2020.pd)
 
-![](S:\_geodata\projects\providence_census_nbhoods\pvd_census_crosswalk\images\tract_table_example.png)
+![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/tract_table_example.png)
 
 *EXAMPLE: Census tract 1.01 is listed once in the tract2020\_to\_nbhood2020 crosswalk, which means it is fully contained within Washington Park. It's pct\_pop value is 1, which means 100% of the population of tract 1.01 falls within Washington Park. Census tract 1.02 is listed twice, as it is split between South Elmwood and Washington Park. The total population of this tract is 5,527; 31.5% (1,741 people) live in South Elmwood, while 68.5% (3,786 people) live in Washington Park.*
