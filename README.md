@@ -20,7 +20,7 @@ A future release in spring 2025 will include block groups and a step by step tut
 
 ## Rights and Use
 
-This product was produced as part of Brown University's [Community-Engaged Data and Evaluation Collaborative]([Data and Evaluation Partnerships | Swearer Center for Public Service | Brown University](https://swearer.brown.edu/faculty-staff/data-and-evaluation-partnerships)) (CEDEC), an initiative of the Swearer Center for Public Service that brings partners from the University and Rhode Island communities together to advance data-oriented projects. The Crosswalk was created by the [GeoData@SciLi]([Home - GeoData@SciLi - LibGuides at Brown University](https://libguides.brown.edu/geodata)) team, which is part of the Center for Library Exploration and Research (CLEAR) at the Brown University Library. The crosswalk and maps are published under a Creative Commons Attribution Noncommercial Sharealike license CC BY-NC-SA 4.0 ![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/cc_license.png).
+This product was produced as part of Brown University's [Community-Engaged Data and Evaluation Collaborative](https://swearer.brown.edu/faculty-staff/data-and-evaluation-partnerships) (CEDEC), an initiative of the Swearer Center for Public Service that brings partners from the University and Rhode Island communities together to advance data-oriented projects. The Crosswalk was created by the [GeoData@SciLi](https://libguides.brown.edu/geodata) team, which is part of the Center for Library Exploration and Research (CLEAR) at the Brown University Library. The crosswalk and maps are published under a Creative Commons Attribution Noncommercial Sharealike license CC BY-NC-SA 4.0 ![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/cc_license.png).
 
 *Disclaimer: Every effort was made to ensure that the data, which was compiled from public sources, was processed and presented accurately. The creators and Brown University disclaim any liability for errors, inaccuracies, or omissions that may be contained therein or for any damages that may arise from the foregoing. Users should independently verify the accuracy and fitness of the data for their purposes.*
 
@@ -34,7 +34,7 @@ This product was produced as part of Brown University's [Community-Engaged Data 
 
 - [Crosswalk Documentation (PDF)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/crosswalk/pvd_census_geog_crosswalk.pdf)
 
-- [Source Materials (folder)](source_materials)
+- [Source Materials (folder)](source_data)
 
 ### Maps (PDF)
 
@@ -46,9 +46,9 @@ This product was produced as part of Brown University's [Community-Engaged Data 
 
 - [2020 ZCTAs to 2020 Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_nbhoods2020.pdf)
 
-- [2020 ZCTAs to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_wards2022.pd)
+- [2020 ZCTAs to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_wards2022.pdf)
 
-- [2020 Neighborhoods vs Official Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_nbhoods_nbhoods2020.pd)
+- [2020 Neighborhoods vs Official Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_nbhoods_nbhoods2020.pdf)
 
 ![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/tract_table_example.png)
 
