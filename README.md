@@ -50,6 +50,14 @@ This product was produced as part of Brown University's [Community-Engaged Data 
 
 - [2020 Neighborhoods vs Official Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_nbhoods_nbhoods2020.pdf)
 
+#### Example 
+
 ![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/tract_table_example.png)
 
-*EXAMPLE: Census tract 1.01 is listed once in the tract2020\_to\_nbhood2020 crosswalk, which means it is fully contained within Washington Park. It's pct\_pop value is 1, which means 100% of the population of tract 1.01 falls within Washington Park. Census tract 1.02 is listed twice, as it is split between South Elmwood and Washington Park. The total population of this tract is 5,527; 31.5% (1,741 people) live in South Elmwood, while 68.5% (3,786 people) live in Washington Park.*
+Census tract 1.01 is listed once in the tract2020\_to\_nbhood2020 crosswalk, which means it is fully contained within Washington Park. It's pct\_pop value is 1, which means 100% of the population of tract 1.01 falls within Washington Park. 
+
+Census tract 1.02 is listed twice, as it is split between South Elmwood and Washington Park. The total population of this tract is 5,527; 31.5% (1,741 people) live in South Elmwood, while 68.5% (3,786 people) live in Washington Park.
+
+The tracts and neighborhoods map make the neighborhood divisions for tracts clear.
+![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/popout_pvd_crosswalk.png)
+
