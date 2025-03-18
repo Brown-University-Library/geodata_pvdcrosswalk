@@ -111,7 +111,7 @@ ORDER BY geoid_long;
 -- Block Groups to Neighborhoods
 CREATE VIEW v_bgroup2020_to_nbhood2020 AS
 WITH crosswalk AS (
-  SELECT "1400000US"||substr(geoid20,1,12) AS geoid_long, substr(geoid20,1,12) AS geoid_short, tractce20 || substr(blockce20,1,1) AS tract_bg, substr(blockce20,1,1) AS bgroup, nbhood_2020, 
+  SELECT "1500000US"||substr(geoid20,1,12) AS geoid_long, substr(geoid20,1,12) AS geoid_short, tractce20 || substr(blockce20,1,1) AS tract_bg, substr(blockce20,1,1) AS bgroup, nbhood_2020, 
   SUM(pop20) AS pop, SUM(housing20) as houses,
   ROUND(SUM(aland20)/2589988.11,4) AS land_sqmi, 
   ROUND(SUM(aland20 + awater20)/2589988.11,4) as area_sqmi
@@ -137,7 +137,7 @@ WHERE c.tract_bg=a.tract_bg;
 -- Block Groups to Wards
 CREATE VIEW v_bgroup2020_to_ward2022 AS
 WITH crosswalk AS (
-  SELECT "1400000US"||substr(geoid20,1,12) AS geoid_long, substr(geoid20,1,12) AS geoid_short, tractce20 || substr(blockce20,1,1) AS tract_bg, substr(blockce20,1,1) AS bgroup, ward_2022, 
+  SELECT "1500000US"||substr(geoid20,1,12) AS geoid_long, substr(geoid20,1,12) AS geoid_short, tractce20 || substr(blockce20,1,1) AS tract_bg, substr(blockce20,1,1) AS bgroup, ward_2022, 
   SUM(pop20) AS pop, SUM(housing20) as houses,
   ROUND(SUM(aland20)/2589988.11,4) AS land_sqmi, 
   ROUND(SUM(aland20 + awater20)/2589988.11,4) as area_sqmi
