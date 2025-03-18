@@ -2,9 +2,11 @@
 
 ## Introduction
 
-The Providence Census Geography Crosswalk is a set of spreadsheet tables and a series of maps that relate census geographies with local geographies in Providence, Rhode Island. Census tracts and ZIP Code Tabulation Areas (ZCTAs) for 2020 were related to Providence neighborhood boundaries and wards; the City's official neighborhood boundaries were regenerated using 2020 census blocks for this analysis. There is one crosswalk table for each pair, and each record represents an instance where a census geography and local geography overlap. The tables can be used for apportioning and aggregating census data from tracts and ZCTAs to neighborhoods and wards. The ZCTA information is included primarily for illustrative purposes; given the poor relationship between ZCTAs and other geographies its use is not recommended. A list of census blocks that constitute all of the geographies is also included, and can be used for aggregating block-level census data.
+The Providence Census Geography Crosswalk is a set of spreadsheet tables and a series of maps that relate census geographies with local geographies in Providence, Rhode Island. Census tracts, block groups, and ZIP Code Tabulation Areas (ZCTAs) for 2020 were related to Providence neighborhood boundaries and wards; the City's official neighborhood boundaries were regenerated using 2020 census blocks for this analysis. There is one crosswalk table for each pair, and each record represents an instance where a census geography and local geography overlap. The tables can be used for apportioning and aggregating census data from tracts, block groups, and ZCTAs to neighborhoods and wards. The ZCTA information is included primarily for illustrative purposes; given the poor relationship between ZCTAs and other geographies its use is not recommended. A list of census blocks that constitute all of the geographies is also included, and can be used for aggregating block-level census data.
 
 Columns in the crosswalk include values and percent totals for population, housing units, land area, and total area for the portion of the census geography that falls within the local geography. Population and housing counts are from the 2020 census, while area is from the 2023 Census TIGER Line files and is represented in square miles.
+
+The original release of December 2024 was updated in March 2025 to include census block groups in the crosswalk.
 
 Project Leads: 
 
@@ -15,8 +17,6 @@ Project Leads:
 Map creation:
 
 - Eric Xia '26, GIS & Data Assistant, Brown University Library
-
-A future release in spring 2025 will include block groups and a step by step tutorial.
 
 ## Rights and Use
 
@@ -43,6 +43,10 @@ This product was produced as part of Brown University's [Community-Engaged Data 
 - [2020 Census Tracts to 2020 Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_tracts2020_nbhoods2020.pdf)
 
 - [2020 Census Tracts to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_tracts2020_wards2022.pdf)
+
+- [2020 Census Block Groups to 2020 Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_bgroups2020_nbhoods2020.pdf)
+
+- [2020 Census Block Groups to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_bgroups2020_wards2022.pdf)
 
 - [2020 ZCTAs to 2020 Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_nbhoods2020.pdf)
 

@@ -1,11 +1,11 @@
 Providence Census Geography Crosswalk
 Frank Donnelly, Head of GIS & Data Services
 Brown University Library
-October 28, 2024 / Revised Dec 11, 2024
+October 28, 2024 / Revised Mar 17, 2025
 
 ---------------------------------------------
 
-This document describes the process for creating the Providence Census Geography Crosswalk, which relates 2020 census tract and ZIP Code Tabulation Area (ZCTA) geographies to neighborhood and ward boundaries for Providence, Rhode Island.
+This document describes the process for creating the Providence Census Geography Crosswalk, which relates 2020 census tract and ZIP Code Tabulation Area (ZCTA) geographies to neighborhood and ward boundaries for Providence, Rhode Island. Block groups were added as an additional geography, in a second version released in spring 2025.
 
 DATA PREPARATION
 
@@ -62,3 +62,7 @@ The crosswalks were created by using subqueries. Four characteristics were captu
 3. Ran the SQL statements in create_crosswalks.sql to create four views in the database: v_tract2020_to_nbhood2020, v_tract2020_to_ward2022, v_zcta2020_to_nbhood2020, v_zcta2020_to_ward2022.
 
 4. After manually verifying a sample of the output, exported each view as CSV files, imported them into Excel as separate sheets. Modified various aspects of the Excel file for stylistic purposes.
+
+UPDATES MARCH 2025
+
+Census block groups were added as an additional geography in an update to the crosswalk in spring 2025. Steps in DATA PREPARATION were repeated to add a new block group layer called pvd_bgroups_2020 to the spatial database. Steps in CREATING CROSSWALK were repeated to create two new views in the database: v_bgroup2020_to_nbhood2020, v_bgroup2020_to_ward2022. The SQL queries were modified versions of the existing queries for tracts. The primary distinction is that identifiers were created to uniquely identify block groups within a tract.
