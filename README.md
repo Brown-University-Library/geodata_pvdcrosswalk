@@ -38,7 +38,7 @@ This product was produced as part of Brown University's [Community-Engaged Data 
 
 ### Video Tutorial
 
-- [Providence Census Geography Crosswalk (Vimeo)]([Providence Census Geography Crosswalk Tutorial](https://vimeo.com/1091899543))
+- [Providence Census Geography Crosswalk (Vimeo)](https://vimeo.com/1091899543)
 
 ### Maps (PDF)
 
