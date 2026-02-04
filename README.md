@@ -6,7 +6,7 @@ The Providence Census Geography Crosswalk is a set of spreadsheet tables and a s
 
 Columns in the crosswalk include values and percent totals for population, housing units, land area, and total area for the portion of the census geography that falls within the local geography. Population and housing counts are from the 2020 census, while area is from the 2023 Census TIGER Line files and is represented in square miles.
 
-The original release of December 2024 was updated in March 2025 to include census block groups in the crosswalk.
+The original release of December 2024 was updated in March 2025 to include census block groups in the crosswalk. Precompiled 2020 census data was added in February 2026.
 
 Project Leads: 
 
@@ -17,6 +17,12 @@ Project Leads:
 Map creation:
 
 - Eric Xia '26, GIS & Data Assistant, Brown University Library
+
+2020 Census Summaries:
+
+- Brian Kao '26, GIS & Data Assistant, Brown University Library
+
+
 
 ## Rights and Use
 
@@ -57,6 +63,18 @@ This product was produced as part of Brown University's [Community-Engaged Data 
 - [2020 ZCTAs to 2022 Wards](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_zctas2020_wards2022.pdf)
 
 - [2020 Neighborhoods vs Official Neighborhoods](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/maps/pvd_nbhoods_nbhoods2020.pdf)
+
+### 2020 Census Data
+
+The census tract crosswalk was used to precompile 2020 census data from the Demographic Profile table (includes age, sex, race, Hispanic / Latino origin, households, household and family relationships, group quarters, occupancy, and tenure). The population weight was used to generate estimates for population and household variables, while the housing weight was used to generate estimates for housing unit variables. 
+
+- [2020 Census Data for Neighborhoods (ZIP)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/census_2020_data/providence_census_output/nbhoods_census2020.zip)
+
+- [2020 Census Data for Wards (ZIP)](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/raw/main/census_2020_data/providence_census_output/wards_census2020.zip)
+
+- [Source Materials (folder)](census_2020_data)
+
+
 
 ![](https://github.com/Brown-University-Library/geodata_pvdcrosswalk/blob/main/images/tract_table_example.png)
 
